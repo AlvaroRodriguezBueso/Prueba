@@ -5,7 +5,12 @@
     </head>
     <body>
         <?php
-        echo "probando "
+        $texto="hola";
+        function negrita($texto){
+            echo "<strong>$texto</strong>";
+            echo "hola";
+        }
+
         ?>
     </body>
 </html>
