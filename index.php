@@ -5,11 +5,16 @@
     </head>
     <body>
         <?php
-        $texto="hola";
-        function negrita($texto){
-            echo "<strong>$texto</strong>";
-            echo "hola";
-        }
+        $a=2;
+        $b=3;
+        function potencia($a, $b){
+	if ($b<=1){
+		return $a;
+                
+        }else{
+		return $a*potencia($a,$b);
+	}
+
 
         ?>
     </body>
